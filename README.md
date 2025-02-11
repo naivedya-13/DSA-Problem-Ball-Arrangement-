@@ -108,12 +108,7 @@ Total valid arrangements: 6
 - **Space Complexity**:  
   The space complexity is **O(G + Y + R)** due to the recursive call stack, as each recursive call uses space proportional to the number of remaining balls.
 
-## Mathematical Formula for Valid Arrangements
 
-In the general case, if we have `G` green balls, `Y` yellow balls, and `R` red balls, the total number of valid arrangements can be modeled as a permutation problem with the constraint that no two balls of the same color are adjacent. This is a complex problem and is computed via recursion as done in the provided code, which generates each arrangement while adhering to the constraints.
-
-### **Formula for Total Arrangements (Without Adjacent Balls of the Same Color)**:
-Unfortunately, there is no direct mathematical formula to compute the exact number of valid arrangements without adjacent balls of the same color. This is because the problem involves recursive placement, ensuring that the last placed ball isn't repeated. As such, this problem requires recursive backtracking as implemented in the code above.
 
 ## Conclusion
 
@@ -129,5 +124,3 @@ Feel free to try it with different inputs for the number of green, yellow, and r
 - Combinatorics
 
 ---
-
-This README provides an explanation of the problem, solution approach, the Java code, and the time complexity. It also covers the mathematical context and limitations of directly calculating the number of valid arrangements. You can modify the README as per your requirement!
