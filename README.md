@@ -7,9 +7,9 @@ In this problem, we are tasked with finding the number of **valid arrangements**
 ### **Example:**
 
 - **Input**: 
-  - Green (G) = 2
-  - Yellow (Y) = 2
-  - Red (R) = 2
+  - Green (G) = 1
+  - Yellow (Y) = 1
+  - Red (R) = 1
 
 - **Output**: 
   - Valid arrangements = 6
