@@ -87,7 +87,7 @@ public class BallArrangement {
 
 ### **Output for Example Input:**
 ```
-Enter G Y R (space-separated): 2 2 2
+Enter G Y R (space-separated): 1 1 1
 
 Valid Arrangements:
 G Y R 
@@ -103,7 +103,7 @@ Total valid arrangements: 6
 ## Time Complexity
 
 - **Time Complexity**:  
-  The time complexity of the algorithm is **O((G + Y + R)!)**. This is because we are recursively placing the balls in every possible arrangement, and for each recursive call, we reduce the number of remaining balls by 1. In the worst case, the number of recursive calls is proportional to the factorial of the sum of all the balls, i.e., (G + Y + R)!.
+  The time complexity of the algorithm is **O((G + Y + R)!/(G!+Y!+R!))**. This is because we are recursively placing the balls in every possible arrangement, and for each recursive call, we reduce the number of remaining balls by 1. In the worst case, the number of recursive calls is proportional to the factorial of the sum of all the balls, i.e., (G + Y + R)!.
 
 - **Space Complexity**:  
   The space complexity is **O(G + Y + R)** due to the recursive call stack, as each recursive call uses space proportional to the number of remaining balls.
